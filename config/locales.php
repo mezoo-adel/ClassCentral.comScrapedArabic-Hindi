@@ -1,0 +1,31 @@
+<?php
+return [
+    /*
+    |--------------------------------------------------------------------------
+    | Application Locales
+    |--------------------------------------------------------------------------
+    |
+    | Contains an array with the applications available locales.
+    |
+    */
+    'languages' => [
+        'en' => [
+            'code' => 'en',
+            'name' => 'English',
+            'dir' => 'ltr',
+            'flag' => '/images/flags/us.png'
+        ],
+        'ar' => [
+            'code' => 'ar',
+            'name' => 'العربية',
+            'dir' => 'rtl',
+            'flag' => '/images/flags/sa.png'
+        ],
+        'in' => [
+            'code' => 'in',
+            'name' => 'हिंदी',
+            'dir' => 'ltr',
+            'flag' => '/images/flags/in.png'
+        ],
+    ],
+];
