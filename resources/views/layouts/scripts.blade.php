@@ -4413,46 +4413,46 @@
                     a = r(9894);
                 r(8785), r(9877), r(6248);
                 const i = new e.Z;
-                // a.IW({
-                //     user: {
-                //         locale: document.documentElement.lang.match(/^[a-z]{2,3}/)[0],
-                //         loggedIn: window.user_logged_in || !1,
-                //         ...(null === (t = window.CC.data) || void 0 === t ? void 0 : t.user) || {}
-                //     },
-                //     queryObject: o.aI(),
-                //     data: window.CC.data || {}
-                // }), (0, n.E)(a.y0().user.locale), i.useHandler((t => {
-                //     switch (t.name) {
-                //         case "DOMContentLoaded:DOCUMENT":
-                //             s("Essential"), ["login", "signup"].indexOf(window.location.pathname.split("/")
-                //                 .pop()) >= 0 && c("Auth");
-                //             break;
-                //         case "load:WINDOW":
-                //             s("UserActions"), o.px(".cmpt-list-view").then((() => c("ListsView"))), o.px(
-                //                     "[data-name=LOAD_MORE]").then((() => c("Pagination"))), o.px(
-                //                     ".catalog-iframe").then((() => c("CatalogIframes"))), o.px(
-                //                     ".catalog-grid__curated-content").then((() => c(
-                //                     "CatalogCuratedContent"))), window.CC.data && window.CC.data.filters &&
-                //                 c("Filters"), window.location.pathname.match(
-                //                     /\/user\/onboarding\/(subjects|courses)/) && c("Onboarding"), window
-                //                 .location.pathname.match(/\/cohorts\/[a-zA-Z0-9\-]+$/) && c("StudyGroups"),
-                //                 o.px("[data-name=EDIT_PROFILE]").then((() => s("Profile"))), o.px(
-                //                     "[data-name=PROFILE_FORM]").then((() => s("Profile"))), window.location
-                //                 .pathname.match(/\/user\/settings\/(account|preferences)/) && c("Account"),
-                //                 window.location.pathname.match(/\/course\/|\/review\//) && s("Reviews"), s(
-                //                     "Misc"), o.px("[data-staff-tools").then((() => c("StaffTools"))), window
-                //                 .location.pathname.match(/\/getting-started/) && o.px("[data-tour]").then((
-                //                 () => c("Tour"))), window.location.pathname.match(
-                //                     /^\/course\/[a-zA-Z0-9\-]+$/) && (c("CourseTabs"), c(
-                //                     "CourseMobileFloatingCta"), c("CollapsableSection")), window.location
-                //                 .pathname.match(/\/classroom\/[a-zA-Z0-9\-]+(\/[a-zA-Z0-9]+)?/) && c(
-                //                     "Classroom"), "/subjects" === window.location.pathname && c(
-                //                     "SubjectsGrid");
-                //             break;
-                //         case "click:NAV_TRIGGER":
-                //             c("ListsAddExternal")
-                //     }
-                // }));
+                 a.IW({
+                     user: {
+                         locale: document.documentElement.lang.match(/^[a-z]{2,3}/)[0],
+                         loggedIn: window.user_logged_in || !1,
+                         ...(null === (t = window.CC.data) || void 0 === t ? void 0 : t.user) || {}
+                     },
+                     queryObject: o.aI(),
+                     data: window.CC.data || {}
+                 }), (0, n.E)(a.y0().user.locale), i.useHandler((t => {
+                     switch (t.name) {
+                         case "DOMContentLoaded:DOCUMENT":
+                             s("Essential"), ["login", "signup"].indexOf(window.location.pathname.split("/")
+                                 .pop()) >= 0 && c("Auth");
+                             break;
+                         case "load:WINDOW":
+                             s("UserActions"), o.px(".cmpt-list-view").then((() => c("ListsView"))), o.px(
+                                     "[data-name=LOAD_MORE]").then((() => c("Pagination"))), o.px(
+                                     ".catalog-iframe").then((() => c("CatalogIframes"))), o.px(
+                                     ".catalog-grid__curated-content").then((() => c(
+                                     "CatalogCuratedContent"))), window.CC.data && window.CC.data.filters &&
+                                 c("Filters"), window.location.pathname.match(
+                                     /\/user\/onboarding\/(subjects|courses)/) && c("Onboarding"), window
+                                 .location.pathname.match(/\/cohorts\/[a-zA-Z0-9\-]+$/) && c("StudyGroups"),
+                                 o.px("[data-name=EDIT_PROFILE]").then((() => s("Profile"))), o.px(
+                                     "[data-name=PROFILE_FORM]").then((() => s("Profile"))), window.location
+                                 .pathname.match(/\/user\/settings\/(account|preferences)/) && c("Account"),
+                                 window.location.pathname.match(/\/course\/|\/review\) && s("Reviews"), s(
+                                     "Misc"), o.px("[data-staff-tools").then((() => c("StaffTools"))), window
+                                 .location.pathname.match(/\/getting-started/) && o.px("[data-tour]").then((
+                                 () => c("Tour"))), window.location.pathname.match(
+                                     /^\/course\/[a-zA-Z0-9\-]+$/) && (c("CourseTabs"), c(
+                                     "CourseMobileFloatingCta"), c("CollapsableSection")), window.location
+                                 .pathname.match(/\/classroom\/[a-zA-Z0-9\-]+(\/[a-zA-Z0-9]+)?/) && c(
+                                     "Classroom"), "/subjects" === window.location.pathname && c(
+                                     "SubjectsGrid");
+                             break;
+                         case "click:NAV_TRIGGER":
+                             c("ListsAddExternal")
+                     }
+                 }));
                 const c = t => {
                         r(7992)("./".concat(t)).then((n => {
                             i.useHandler(n.default), (0, e.W)("load", "".concat(t.toUpperCase(), "_MODULE"))

@@ -239,10 +239,7 @@
 <header data-cc-header="nosearch" class="z-top relative">
     <div class="relative bg-white cc-header border-bottom border-gray-light">
         <nav class="cmpt-nav row nowrap vert-align-middle absolute width-100 padding-horz-medium border-box">
-            <a class="block medium-up-margin-right-large cmpt-nav-logo" data-track-click="nav_click"
-                data-track-props="{ &quot;type&quot;: &quot;homepage&quot;, &quot;title&quot;: &quot;logo&quot; }"
-                data-track-ga="{&quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;homepage&quot;, &quot;label&quot;:&quot;top&quot;}"
-                href="/">
+            <a class="block medium-up-margin-right-large cmpt-nav-logo" href="/">
                 <i class="symbol-classcentral-navy symbol-medium hidden large-up-block"></i>
                 <i class="relative symbol-classcentral-navy symbol-small block large-up-hidden"></i>
                 <span class="off-page">Class Central</span>
@@ -2524,10 +2521,7 @@
                                         data-track-ga="{&quot;category&quot;:&quot;nav_click&quot;,&quot;action&quot;:&quot;lists&quot;,&quot;label&quot;:&quot;showcase&quot;}"
                                         href="/lists">Lists Showcase</a></p>
 
-                                <a href="/signup" data-name="SIGNUP_LINK"
-                                    data-detail="{&quot;source&quot;: &quot;navbar lists&quot; }"
-                                    data-track-ga="{ &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;lists&quot;, &quot;label&quot;: &quot;sign up&quot;}"
-                                    class="text-right btn-blue margin-top-small">
+                                <a href="/signup" data-name="SIGNUP_LINK">
                                     {{ __('home/navbar/navbar.Sign Up') }}
                                 </a>
                             </div>
@@ -2561,30 +2555,7 @@
                         data-detail="{&quot;name&quot;: &quot;user&quot;}" class="animate-fade-hidden">
                         <i class="icon-medium icon-x-charcoal"></i>
                     </button>
-                    <div class="animate-fade-hidden bg-white z-top absolute border-all border-gray-light shadow-light"
-                        data-menu-dropdown="user">
-                        <ol class="border-top border-gray-light padding-vert-xsmall list-no-style">
-                            <li>
-                                <a data-track-click="nav_click"
-                                    data-track-props="{ &quot;type&quot;: &quot;User&quot;, &quot;title&quot;: &quot;login&quot; }"
-                                    data-track-ga="{&quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;user&quot;, &quot;label&quot;:&quot;login&quot;}"
-                                    href="/login"
-                                    class="block text-2 hover-no-underline hover-bg-gray-light color-charcoal padding-horz-small padding-vert-xxsmall">
-                                    {{ __('home/navbar/navbar.Log In') }}
-                                </a>
-                            </li>
-                            <li>
-                                <a data-track-click="nav_click"
-                                    data-track-props="{ &quot;type&quot;: &quot;User&quot;, &quot;title&quot;: &quot;sign_up&quot; }"
-                                    data-track-ga="{&quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;user&quot;, &quot;label&quot;:&quot;sign_up&quot;}"
-                                    data-name="SIGNUP_LINK"
-                                    data-detail="{ &quot;source&quot;: &quot;navbar dropdown&quot; }" href="/signup"
-                                    class="block text-2 hover-no-underline hover-bg-gray-light color-charcoal padding-horz-small padding-vert-xxsmall">
-                                    {{ __('home/navbar/navbar.Sign Up') }}
-                                </a>
-                            </li>
-                        </ol>
-                    </div>
+
                 </div>
 
             </div>
