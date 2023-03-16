@@ -476,6 +476,115 @@
                             </li>
                         </ul>
                     </li>
+
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#businessMenu">
+                        <a class="main-nav-dropdown__item-control color-charcoal">
+                            <span>{{ __('home/navbar/navbar.Business') }}</span>
+                            <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
+                        </a>
+                        <ul class="dropdown-menu collapse submenu" id="businessMenu">
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/management-and-leadership"><span>Management &amp; Leadership</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/finance"><span>Finance</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/entrepreneurship"><span>Entrepreneurship</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/marketing"><span>Marketing</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/strategic-management"> <span>Strategic Management</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/industry-specific"> <span>Industry Specific</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/business-intelligence"><span>Business Intelligence</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/accounting">
+                                    <span>Accounting</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/human-resources"><span>Human Resources</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/project-management"> <span>Project Management</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/sales"><span>Sales</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/design-thinking"><span>Design Thinking</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/business-software"><span>Business Software</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/risk-management"><span>Risk Management</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/csr"><span>Corporate Social Responsibility</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/customer-service"><span>Customer Service</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/nonprofit"><span>Nonprofit Management</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/innovation"><span>Innovation</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/operations-management"><span>Operations Management</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control--highlighted"
+                                    href="/subject/business"><span>View all Business</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     {{-- WEeeeeeeeee PASTEeeeeee BEFORE HEREEEEEEEEEEEEEEEEEEEE --}}
                     <li class="nav-item" id="myDropdown">
                         <a class="main-nav-dropdown__item-control color-charcoal" href="#"
