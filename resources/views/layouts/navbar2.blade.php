@@ -408,8 +408,7 @@
                             <span>{{ __('home/navbar/navbar.Mathimatics') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="dropdown-menu collapse submenu" id="mathMenu"
-                            style="width: 18rem;  top: -12rem;">
+                        <ul class="dropdown-menu collapse submenu" id="mathMenu" style="width: 18rem;  top: -12rem;">
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/statistics">
                                     <span>Statistics &amp; Probability</span>
@@ -447,7 +446,7 @@
                             </li>
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal"
-                                    href="/subject/precalculus"></a>
+                                    href="/subject/precalculus"> <span>Precalculus</span> </a>
                             </li>
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal"
@@ -482,7 +481,7 @@
                             <span>{{ __('home/navbar/navbar.Business') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="dropdown-menu collapse submenu" id="businessMenu">
+                        <ul class="dropdown-menu collapse submenu" id="businessMenu"  style="width: 18rem;  top: -14rem;">
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal"
                                     href="/subject/management-and-leadership"><span>Management &amp; Leadership</span>
