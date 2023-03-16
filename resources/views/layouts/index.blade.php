@@ -5,7 +5,7 @@
         @yield('title')
     </title>
     @include('layouts.header')
-   @yield('customcss')
+    @yield('customcss')
 
 </head>
 

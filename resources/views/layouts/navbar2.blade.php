@@ -25,10 +25,22 @@
         background-color: #ddd;
     }
 
+    a:hover {
+        cursor: pointer;
+    }
+
     /* Show the dropdown menu on hover */
     .dropdown:hover>.dropdown-menu,
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .bluring {
+        filter: blur(6px);
+        -webkit-filter: blur(6px);
+        -moz-filter: blur(6px);
+        -o-filter: blur(6px);
+        -ms-filter: blur(6px);
     }
 </style>
 
@@ -42,7 +54,7 @@
             display: none;
             position: absolute;
             left: 100%;
-            top: -0.8rem;
+            top: -0.7rem;
         }
 
         .nav-item .submenu-left {
@@ -84,10 +96,10 @@
 
     <div class="collapse navbar-collapse w-50" id="mainNavbar">
         <ul class="navbar-nav mr-auto mt-lg-0">
-            <section class="dropdown nav-link  " data-bs-toggle=" collapse">
-                <button class="weight-semi large-up-block text-1 color-charcoal " type="button">
+            <section class="dropdown nav-link" data-bs-toggle=" collapse">
+                <a class="weight-semi large-up-block text-1 color-charcoal">
                     {{ __('home/navbar/navbar.Courses') }}
-                </button>
+                </a>
                 <div class="dropdown-menu collapse" id="dropdown-menu" style="width: 17rem;">
                     <li class="nav-item" data-bs-toggle="dropdown" data-bs-target="#rankMenu">
                         <a class="main-nav-dropdown__item-control color-charcoal">
@@ -324,7 +336,7 @@
                                         Graphics</span>
                                 </a>
                             </li>
-                            <li class="main-nav-dropdown__item">
+                            <li class="main-nav-dropdown__item mb-3">
                                 <a class="main-nav-dropdown__item-control--highlighted"
                                     href="https://www.classcentral.com/subject/cs"><span>View all Computer
                                         Science</span>
@@ -339,7 +351,8 @@
                             <span>{{ __('home/navbar/navbar.Health and Medicine') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="dropdown-menu collapse submenu" id="healthMenu" style="width: 18rem;  top: -11.5rem;">
+                        <ul class="dropdown-menu collapse submenu" id="healthMenu"
+                            style="width: 18rem;  top: -10rem;">
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal"
                                     href="/subject/nutrition-and-wellness"><span>Nutrition &amp; Wellness</span>
@@ -351,34 +364,116 @@
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/public-health"><span>Public Health</span>
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/public-health"><span>Public Health</span>
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/health-care"><span>Health Care</span>
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/health-care"><span>Health Care</span>
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/nursing"><span>Nursing</span>
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/nursing"><span>Nursing</span>
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/anatomy"><span>Anatomy</span>
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/anatomy"><span>Anatomy</span>
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/veterinary-science"><span>Veterinary Science</span>
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/veterinary-science"><span>Veterinary Science</span>
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/cme"><span>Continuing Medical Education (CME)</span>
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/cme"><span>Continuing Medical Education (CME)</span>
                                 </a>
                             </li>
-                            <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control--highlighted" href="https://www.classcentral.com/subject/health"><span>View all Health &amp; Medicine</span>
+                            <li class="main-nav-dropdown__item mb-3">
+                                <a class="main-nav-dropdown__item-control--highlighted"
+                                    href="https://www.classcentral.com/subject/health"><span>View all Health &amp;
+                                        Medicine</span>
                                 </a>
                             </li>
 
+                        </ul>
+                    </li>
+
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#mathMenu">
+                        <a class="main-nav-dropdown__item-control color-charcoal">
+                            <span>{{ __('home/navbar/navbar.Mathimatics') }}</span>
+                            <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
+                        </a>
+                        <ul class="dropdown-menu collapse submenu" id="mathMenu"
+                            style="width: 18rem;  top: -12rem;">
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/statistics">
+                                    <span>Statistics &amp; Probability</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/foundations-of-mathematics"><span>Foundations of Mathematics</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/calculus"><span>Calculus</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/discrete-mathematics"><span>Discrete Mathematics</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/trigonometry"><span>Trigonometry</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/geometry"><span>Geometry</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/algebra"><span>Algebra</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/precalculus"></a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/number-theory"><span>Number Theory</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/combinatorics"><span>Combinatorics</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/mathematical-logic"><span>Mathematical logic</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/linear-programming"><span>Linear Programming</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item mb-3">
+                                <a class="main-nav-dropdown__item-control--highlighted"
+                                    href="/subject/maths"><span>View all Mathematics</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     {{-- WEeeeeeeeee PASTEeeeeee BEFORE HEREEEEEEEEEEEEEEEEEEEE --}}
@@ -447,3 +542,18 @@
 </nav>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+<script>
+    window.onload = function() {
+
+        dd = document.querySelector('.dropdown');
+        body = document.querySelector('.contain-pages');
+        dd.addEventListener('mouseover', function() {
+            console.log(body);
+            body.classList.add('bluring');
+        });
+        dd.addEventListener('mouseout', function() {
+
+            body.classList.remove('bluring');
+        });
+    }
+</script>
