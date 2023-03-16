@@ -177,7 +177,7 @@
         top: var(--navbar-height);
         bottom: 0;
         opacity: 0;
-        visibility: hidden;
+        visibility: ;
         left: 0;
         right: 0;
     }
@@ -240,7 +240,7 @@
     <div class="relative bg-white cc-header border-bottom border-gray-light">
         <nav class="cmpt-nav row nowrap vert-align-middle absolute width-100 padding-horz-medium border-box">
             <a class="block medium-up-margin-right-large cmpt-nav-logo" href="/">
-                <i class="symbol-classcentral-navy symbol-medium hidden large-up-block"></i>
+                <i class="symbol-classcentral-navy symbol-medium  large-up-block"></i>
                 <i class="relative symbol-classcentral-navy symbol-small block large-up-hidden"></i>
                 <span class="off-page">Class Central</span>
             </a>
@@ -508,7 +508,7 @@
                             data-track-props="{&quot;type&quot;:&quot;Subject&quot;,&quot;title&quot;:&quot;View all Subjects&quot;}"
                             data-track-ga="{&quot;category&quot;:&quot;nav_click&quot;,&quot;action&quot;:&quot;subject&quot;,&quot;label&quot;:&quot;view all subjects&quot;}"
                             href="/subjects"
-                            class="text-2 hover-no-underline weight-semi margin-vert-xsmall padding-left-medium padding-right-medium hidden large-up-block">View
+                            class="text-2 hover-no-underline weight-semi margin-vert-xsmall padding-left-medium padding-right-medium  large-up-block">View
                             all Subjects</a>
                     </section>
 
@@ -546,7 +546,7 @@
 
                     <div class="main-nav-dropdown__subsections">
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection" data-list-id="rankings"
-                            hidden="">
+                            ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -661,7 +661,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection" data-list-id="collections"
-                            hidden="">
+                            ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -760,7 +760,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection" data-list-id="subject-cs"
-                            hidden="">
+                            ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -908,7 +908,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-health" hidden="">
+                            data-list-id="subject-health" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -999,7 +999,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection" data-list-id="subject-maths"
-                            hidden="">
+                            ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1122,7 +1122,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-business" hidden="">
+                            data-list-id="subject-business" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1301,7 +1301,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-humanities" hidden="">
+                            data-list-id="subject-humanities" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1456,7 +1456,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-engineering" hidden="">
+                            data-list-id="subject-engineering" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1587,7 +1587,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-science" hidden="">
+                            data-list-id="subject-science" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1702,7 +1702,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-education" hidden="">
+                            data-list-id="subject-education" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1793,7 +1793,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-social-sciences" hidden="">
+                            data-list-id="subject-social-sciences" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1924,7 +1924,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-art-and-design" hidden="">
+                            data-list-id="subject-art-and-design" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -1983,7 +1983,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-data-science" hidden="">
+                            data-list-id="subject-data-science" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -2058,7 +2058,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-programming-and-software-development" hidden="">
+                            data-list-id="subject-programming-and-software-development" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -2142,7 +2142,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-personal-development" hidden="">
+                            data-list-id="subject-personal-development" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">
@@ -2209,7 +2209,7 @@
 
 
                         <div class="main-nav-dropdown__subsection js-main-nav-subsection"
-                            data-list-id="subject-infosec" hidden="">
+                            data-list-id="subject-infosec" ="">
                             <div class="main-nav-dropdown__subsection-header large-up-hidden">
                                 <button aria-label="Back to main menu" data-name="MAIN_NAV_SUBSECTION_BACK"
                                     class="main-nav-dropdown__subsection-back-button">

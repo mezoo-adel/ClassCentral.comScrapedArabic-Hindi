@@ -42,7 +42,7 @@
             display: none;
             position: absolute;
             left: 100%;
-            top: -7px;
+            top: -0.8rem;
         }
 
         .nav-item .submenu-left {
@@ -70,24 +70,6 @@
         }
     }
 </style>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Brand</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main_nav">
-            <ul class="navbar-nav">
-                <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
-                <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
-
-            </ul>
-        </div>
-        <!-- navbar-collapse.// -->
-    </div>
-    <!-- container-fluid.// -->
-</nav>
 <nav class="navbar navbar-expand-lg py-3 bg-white  border-bottom border-gray-light">
     <a class="block medium-up-margin-right-large cmpt-nav-logo" href="/">
         <i class="symbol-classcentral-navy symbol-medium hidden large-up-block"></i>
@@ -95,24 +77,24 @@
         <span class="off-page">Class Central</span>
     </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <i class="icon-medium icon-menu-charcoal"></i>
     </button>
 
-    <div class="collapse navbar-collapse w-50" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse w-50" id="mainNavbar">
         <ul class="navbar-nav mr-auto mt-lg-0">
-            <section class="dropdown nav-link  " data-bs-toggle="dropdown">
+            <section class="dropdown nav-link  " data-bs-toggle=" collapse">
                 <button class="weight-semi large-up-block text-1 color-charcoal " type="button">
                     {{ __('home/navbar/navbar.Courses') }}
                 </button>
-                <div class="dropdown-menu" id="dropdown-menu" style="width: 17rem;">
-                    <li class="nav-item" data-bs-toggle="dropdown">
-                        <a class="main-nav-dropdown__item-control color-charcoal" href="/rankings">
-                            <span>Rankings</span>
+                <div class="dropdown-menu collapse" id="dropdown-menu" style="width: 17rem;">
+                    <li class="nav-item" data-bs-toggle="dropdown" data-bs-target="#rankMenu">
+                        <a class="main-nav-dropdown__item-control color-charcoal">
+                            <span>{{ __('home/navbar/navbar.Rankings') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="submenu dropdown-menu" style="width: 18rem;">
+                        <ul class="submenu dropdown-menu" id="rankMenu" style="width: 18rem;">
                             <a class="main-nav-dropdown__item-control--with-image"
                                 href="https://www.classcentral.com/collection/top-free-online-courses">
                                 <img class="width-100 radius-small"
@@ -182,12 +164,12 @@
                             </section>
                         </ul>
                     </li>
-                    <li class="nav-item" data-bs-toggle="dropdown">
-                        <a class="main-nav-dropdown__item-control color-charcoal" href="/rankings">
-                            <span>Collections</span>
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#collMenu">
+                        <a class="main-nav-dropdown__item-control color-charcoal">
+                            <span>{{ __('home/navbar/navbar.Collections') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="submenu dropdown-menu" style="width: 18rem;">
+                        <ul class="dropdown-menu collapse submenu" id="collMenu" style="width: 18rem; top: -2.7rem;">
                             <a class="main-nav-dropdown__item-control--with-image"
                                 href="https://www.classcentral.com/collection/ivy-league-moocs">
                                 <img class="width-100 radius-small"
@@ -195,10 +177,22 @@
                                     alt="Best of All Time">
                             </a>
                             <a class="main-nav-dropdown__item-control--with-image"
-                            href="https://www.classcentral.com/report/coursera-free-online-courses/">
+                                href="https://www.classcentral.com/report/coursera-free-online-courses/">
                                 <img class="width-100 radius-small"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-coursera-free-courses.png?auto=format&h=420&ixlib=php-3.3.1&s=9044610de77ddba19697f770dd2531c7"
                                     alt="Most Popular of All Time">
+                            </a>
+                            <a class="main-nav-dropdown__item-control--with-image"
+                                href="https://www.classcentral.com/report/free-certificates/">
+                                <img class="width-100 radius-small"
+                                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-free-certificates.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=bc50a602c38dbf30802649312c6a4474"
+                                    alt="Free Certificates">
+                            </a>
+                            <a class="main-nav-dropdown__item-control--with-image"
+                                href="https://www.classcentral.com/report/free-google-certifications/">
+                                <img class="width-100 radius-small"
+                                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-google-certs.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=ac4c48d612e7961d7335e87451e52ac4"
+                                    alt="Free Google Certifications">
                             </a>
                             <li>
                                 <hr class="dropdown-divider w-75 m-auto">
@@ -211,25 +205,19 @@
                                 <ul class="list-no-style">
                                     <li class="main-nav-dropdown__item">
                                         <a class="main-nav-dropdown__item-control color-charcoal"
-                                            href="/starting-this-month" data-track-click="nav_click"
-                                            data-track-props="{&quot;type&quot;:&quot;collections&quot;,&quot;title&quot;:&quot;Starting this Month&quot;}"
-                                            data-track-ga="{&quot;category&quot;:&quot;nav_click&quot;,&quot;action&quot;:&quot;collections&quot;,&quot;label&quot;:&quot;Starting this Month&quot;}">
+                                            href="/starting-this-month" data-track-click="nav_click">
                                             <span>Starting this Month</span>
                                         </a>
                                     </li>
                                     <li class="main-nav-dropdown__item">
                                         <a class="main-nav-dropdown__item-control color-charcoal"
-                                            href="/new-online-courses" data-track-click="nav_click"
-                                            data-track-props="{&quot;type&quot;:&quot;collections&quot;,&quot;title&quot;:&quot;New Online Courses&quot;}"
-                                            data-track-ga="{&quot;category&quot;:&quot;nav_click&quot;,&quot;action&quot;:&quot;collections&quot;,&quot;label&quot;:&quot;New Online Courses&quot;}">
+                                            href="/new-online-courses" data-track-click="nav_click">
                                             <span>New Online Courses</span>
                                         </a>
                                     </li>
                                     <li class="main-nav-dropdown__item">
                                         <a class="main-nav-dropdown__item-control color-charcoal"
-                                            href="/most-popular-courses" data-track-click="nav_click"
-                                            data-track-props="{&quot;type&quot;:&quot;collections&quot;,&quot;title&quot;:&quot;Most Popular&quot;}"
-                                            data-track-ga="{&quot;category&quot;:&quot;nav_click&quot;,&quot;action&quot;:&quot;collections&quot;,&quot;label&quot;:&quot;Most Popular&quot;}">
+                                            href="/most-popular-courses" data-track-click="nav_click">
                                             <span>Most Popular</span>
                                         </a>
                                     </li>
@@ -237,7 +225,164 @@
                             </section>
                         </ul>
                     </li>
-                    <li class=" nav-item" id="myDropdown">
+                    <div class="main-nav-dropdown__section-header">
+                        <hr class="dropdown-divider my-2">
+                        <h3 class="main-nav-dropdown__section-heading">Subjects</h3>
+                    </div>
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#csMenu">
+                        <a class="main-nav-dropdown__item-control color-charcoal">
+                            <span>{{ __('home/navbar/navbar.Computer Science') }}</span>
+                            <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
+                        </a>
+                        <ul class="dropdown-menu collapse submenu" id="csMenu" style="width: 18rem;  top: -8rem;">
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/ai">
+                                    <span>Artificial Intelligence</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/algorithms-and-data-structures">
+                                    <span>Algorithms and Data
+                                        Structures</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/internet-of-things">
+                                    <span>Internet of Things</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/information-technology"><span>Information
+                                        Technology</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/computer-networking"> <span>Computer
+                                        Networking</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/machine-learning"> <span>Machine
+                                        Learning</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/devops"><span>DevOps</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/deep-learning"> <span>Deep
+                                        Learning</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/cryptography"> <span>Cryptography</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/quantum-computing"><span>Quantum
+                                        Computing</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/hci"><span>Human-Computer Interaction
+                                        (HCI)</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/distributed-systems"><span>Distributed
+                                        Systems</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/blockchain"><span>Blockchain
+                                        Development</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/operating-systems"> <span>Operating
+                                        Systems</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="https://www.classcentral.com/subject/computer-graphics"> <span>Computer
+                                        Graphics</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control--highlighted"
+                                    href="https://www.classcentral.com/subject/cs"><span>View all Computer
+                                        Science</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#healthMenu">
+                        <a class="main-nav-dropdown__item-control color-charcoal">
+                            <span>{{ __('home/navbar/navbar.Health and Medicine') }}</span>
+                            <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
+                        </a>
+                        <ul class="dropdown-menu collapse submenu" id="healthMenu" style="width: 18rem;  top: -11.5rem;">
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/nutrition-and-wellness"><span>Nutrition &amp; Wellness</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal"
+                                    href="/subject/disease-and-disorders"><span>Disease &amp; Disorders</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/public-health"><span>Public Health</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/health-care"><span>Health Care</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/nursing"><span>Nursing</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/anatomy"><span>Anatomy</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/veterinary-science"><span>Veterinary Science</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/cme"><span>Continuing Medical Education (CME)</span>
+                                </a>
+                            </li>
+                            <li class="main-nav-dropdown__item">
+                                <a class="main-nav-dropdown__item-control--highlighted" href="https://www.classcentral.com/subject/health"><span>View all Health &amp; Medicine</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    {{-- WEeeeeeeeee PASTEeeeeee BEFORE HEREEEEEEEEEEEEEEEEEEEE --}}
+                    <li class="nav-item" id="myDropdown">
                         <a class="main-nav-dropdown__item-control color-charcoal" href="#"
                             data-bs-toggle="dropdown">
                             <span> Treeview menu </span>
@@ -292,8 +437,7 @@
             @endforeach
         </ul>
     </div>
-    <div class="collapse navbar-collapse justify-content-md-end " id="navbarTogglerDemo02"
-        style="text-align: center;">
+    <div class="collapse navbar-collapse justify-content-md-end " id="mainNavbar" style="text-align: center;">
         <a href="/login" class="text-1 weight-semi color-charcoal">{{ __('home/navbar/navbar.Log In') }}</a>
         <span class="inline-block padding-horz-xxsmall color-charcoal">or</span>
         <a href="/signup" class="text-1 weight-semi color-charcoal">
