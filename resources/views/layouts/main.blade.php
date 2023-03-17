@@ -1,5 +1,4 @@
 @extends('layouts.index')
-@section('title', 'Home Page')
 @section('content')
     <div class="contain-pages">
         <main>
@@ -22,13 +21,14 @@
 
 
 
-                            <form class="search-input--fancy" method="GET" action="/search">
+                            <form class="search-input--fancy" method="GET"
+                                action="{{ URL('https://www.classcentral.com/search') }}">
                                 <i class="icon-search-charcoal icon-medium search-input__search-icon"></i>
                                 <input id="autocomplete-search-746146915" class="search-input__input is-blank"
                                     type="search" autocomplete="off" aria-label="Search courses and more…"
                                     placeholder="Search 100,000 courses…" name="q"
-                                    data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&quot;,&quot;action&quot;&#x3A;&quot;open&#x20;searchbox&quot;,&quot;label&quot;&#x3A;&quot;homepage&quot;&#x7D;"
-                                    value="" data-name="AUTOCOMPLETE_SEARCHBOX">
+                                    onfocus="showDropdownSearchSuggest()" onblur="hideDropdownSearchSuggest()"
+                                    {{-- onmouseup="console.log('77777');" --}} value="" data-name="AUTOCOMPLETE_SEARCHBOX">
                                 <button class="search-input__clear-button" type="button" aria-label="Clear"
                                     aria-controls="autocomplete-search-746146915" data-name="AUTOCOMPLETE_CLEAR" hidden><i
                                         class="icon-x-charcoal icon-xsmall"></i></button>
@@ -49,9 +49,8 @@
                                             <i class="icon-search-charcoal icon-medium search-input__search-icon"></i>
                                             <input id="autocomplete-search-1565794834" class="search-input__input is-blank"
                                                 type="search" autocomplete="off" aria-label="Search courses and more…"
-                                                placeholder="Search courses and more…" name="q"
-                                                data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&quot;,&quot;action&quot;&#x3A;&quot;open&#x20;searchbox&quot;,&quot;label&quot;&#x3A;&quot;navbar&quot;&#x7D;"
-                                                value="" data-name="MOBILE_AUTOCOMPLETE_SEARCHBOX">
+                                                placeholder="Search courses and more…" name="q" value=""
+                                                data-name="MOBILE_AUTOCOMPLETE_SEARCHBOX">
                                             <button class="search-input__clear-button" type="button" aria-label="Clear"
                                                 aria-controls="autocomplete-search-1565794834"
                                                 data-name="AUTOCOMPLETE_CLEAR" hidden><i
@@ -65,7 +64,6 @@
 
                                             <ol class="list-no-style">
                                                 <li>
-
 
 
                                                     <a class="search-results__result js-autocomplete-result"
@@ -91,9 +89,6 @@
 
                                             <ol class="list-no-style">
                                                 <li>
-
-
-
                                                     <button class="search-results__result js-autocomplete-result"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;suggested_search_term&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cmarketing&#x5C;u201d&quot;&#x7D;"
                                                         type="button" data-name="SUGGESTED_SEARCH_TERM"
@@ -1795,4 +1790,15 @@
         </main>
 
     </div>
+
+    <script>
+        let search_results = document.querySelector(".search-results");
+
+        function showDropdownSearchSuggest() {
+            search_results.style.display = "block"
+        }
+        function hideDropdownSearchSuggest() {
+            search_results.style.display = "none"
+        }
+    </script>
 @endsection

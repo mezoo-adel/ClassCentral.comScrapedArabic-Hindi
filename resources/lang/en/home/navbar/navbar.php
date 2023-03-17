@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Title'=>'Class Central • Find the best courses, wherever they exist.',
     'Rankings'=>'Rankings',
     'Collections'=>'Collections',
     "Lang"=>"Lang","Courses"=>"Courses","The Report"=>"The Report","Log In"=>"Log In","Sign Up"=>"Sign Up","Find your next

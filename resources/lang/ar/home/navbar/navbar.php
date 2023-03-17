@@ -2,6 +2,7 @@
 
 $arabic = [
     "Lang" => "اختر اللغة",
+    "Title"=>"Class Central • اعثر على أفضل الكورسات, من جميع المواقع",
     'Courses' => 'الكورسات',
     'The Report' => 'اخر تريندات',
     'Log In' => 'تسجيل الدخول',
@@ -32,10 +33,10 @@ $arrEn=[];
 $arrHindi=[];
 foreach ($arabic as $key => $value) {
     # code...
-    $arr += [$key => $key];
+    $arrEn += [$key => $key];
     $arrHindi += [$key => ""];
 }
-fwrite($file,json_encode($arr));
+fwrite($file,json_encode($arrEn));
 fwrite($fileHindi,json_encode($arrHindi));
 fclose($file);
 fclose($fileHindi);

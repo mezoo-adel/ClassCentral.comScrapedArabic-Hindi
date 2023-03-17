@@ -2,7 +2,7 @@
 
 <head itemscope itemtype="http://schema.org/WebSite">
     <title>
-        @yield('title')
+        {{ __('home/navbar/navbar.Title') }}
     </title>
     @include('layouts.header')
     @yield('customcss')

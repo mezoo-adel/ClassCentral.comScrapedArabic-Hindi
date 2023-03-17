@@ -36,12 +36,13 @@
     }
 
     .bluring {
-        filter: blur(6px);
-        -webkit-filter: blur(6px);
-        -moz-filter: blur(6px);
-        -o-filter: blur(6px);
-        -ms-filter: blur(6px);
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
     }
+
 </style>
 
 <style>
@@ -69,6 +70,10 @@
         .dropdown-menu>li:hover>.submenu {
             display: block;
         }
+
+        #dropdown-report{
+            width: 35rem;
+        }
     }
 
     /* ============ desktop view .end// ============ */
@@ -79,6 +84,9 @@
             margin-left: 0.7rem;
             margin-right: 0.7rem;
             margin-bottom: .5rem;
+        }
+        #dropdown-report{
+            width: fit-content;
         }
     }
 </style>
@@ -100,7 +108,7 @@
                 <a class="weight-semi large-up-block text-1 color-charcoal">
                     {{ __('home/navbar/navbar.Courses') }}
                 </a>
-                <div class="dropdown-menu collapse" id="dropdown-menu" style="width: 17rem;">
+                <div class="dropdown-menu collapse" id="dropdown-menu" style="width: 17rem; top:2.5rem">
                     <li class="nav-item" data-bs-toggle="dropdown" data-bs-target="#rankMenu">
                         <a class="main-nav-dropdown__item-control color-charcoal">
                             <span>{{ __('home/navbar/navbar.Rankings') }}</span>
@@ -408,7 +416,8 @@
                             <span>{{ __('home/navbar/navbar.Mathimatics') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="dropdown-menu collapse submenu" id="mathMenu" style="width: 18rem;  top: -12rem;">
+                        <ul class="dropdown-menu collapse submenu" id="mathMenu"
+                            style="width: 18rem;  top: -12rem;">
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/statistics">
                                     <span>Statistics &amp; Probability</span>
@@ -445,8 +454,8 @@
                                 </a>
                             </li>
                             <li class="main-nav-dropdown__item">
-                                <a class="main-nav-dropdown__item-control color-charcoal"
-                                    href="/subject/precalculus"> <span>Precalculus</span> </a>
+                                <a class="main-nav-dropdown__item-control color-charcoal" href="/subject/precalculus">
+                                    <span>Precalculus</span> </a>
                             </li>
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal"
@@ -481,7 +490,8 @@
                             <span>{{ __('home/navbar/navbar.Business') }}</span>
                             <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
                         </a>
-                        <ul class="dropdown-menu collapse submenu" id="businessMenu"  style="width: 18rem;  top: -14rem;">
+                        <ul class="dropdown-menu collapse submenu" id="businessMenu"
+                            style="width: 18rem;  top: -14rem;">
                             <li class="main-nav-dropdown__item">
                                 <a class="main-nav-dropdown__item-control color-charcoal"
                                     href="/subject/management-and-leadership"><span>Management &amp; Leadership</span>
@@ -616,12 +626,114 @@
                 </div>
             </section>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+            <section class="dropdown nav-link" data-bs-toggle="collapse">
+                <a style="width: 82px; top: 0.3rem; color: transparent" href="https://www.classcentral.com/report/" class="relative large-up-block symbol-report">
+                    The Report
+                  </a>
+                <div class="dropdown-menu collapse bg-white z-top absolute  border-all border-gray-light shadow-light padding-medium animate-fade-entered"
+                    id="dropdown-report" style="top:2.5rem">
+                    <div class="row nowrap">
+                        <div class="width-1-2 border-box padding-right-small">
+
+                            <a data-track-ga="[
+                            { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Featured — Coursera’s New Deal with Google Could Cost the Company Millions&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                            { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;featured — Coursera’s New Deal with Google Could Cost the Company Millions&quot;}
+                          ]"
+                                href="https://www.classcentral.com/report/coursera-google-new-deal/">
+                                <img class="width-100 margin-bottom-xsmall shadow-light"
+                                    src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Freport%2Fwp-content%2Fuploads%2F2023%2F02%2Fcoursera-google-revenue-banner.png?auto=format&amp;ixlib=php-3.3.1&amp;s=68fd3ac08872ec505ab5f4a612b3f9d0"
+                                    alt="">
+                            </a>
+                            <h4 class="head-3 margin-bottom-xsmall">
+                                <a data-track-ga="[
+                              { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Featured — Coursera’s New Deal with Google Could Cost the Company Millions&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                              { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;featured — Coursera’s New Deal with Google Could Cost the Company Millions&quot;}
+                            ]"
+                                    href="https://www.classcentral.com/report/coursera-google-new-deal/"
+                                    class="color-charcoal">
+                                    Coursera’s New Deal with Google Could Cost the Company Millions
+                                </a>
+                            </h4>
+                            <p class="text-2 line-tight margin-bottom-xsmall">According to Coursera CFO, the new terms
+                                represent a significant “shift”. Let’s dig into the numbers.
+                            </p>
+                            <div class="row text-2">
+                                <a href="https://www.classcentral.com/report/author/dhawal/"
+                                    class="color-charcoal weight-semi margin-right-small">
+                                    Dhawal Shah
+                                </a>
+                                <time class="color-gray" datetime="2023-02-27T05:47:43">Feb 27, 2023</time>
+                            </div>
+                        </div>
+
+                        <div class="width-1-2 border-box padding-left-small">
+                            <h5 class="text-2 border-bottom padding-bottom-xsmall weight-semi upper">Latest</h5>
+                            <ol class="list-no-style">
+                                <li class="text-2 border-bottom border-gray-light">
+                                    <a data-track-ga="[
+                                  { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Latest — Que Hacer en Momentos de Crisis, Situaciones Altamente Estresantes, y Emergencias&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                                  { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;latest — Que Hacer en Momentos de Crisis, Situaciones Altamente Estresantes, y Emergencias&quot;}
+                                ]"
+                                        class="color-charcoal padding-vert-small block"
+                                        href="https://www.classcentral.com/report/review-primeros-auxilios-psicologicos/">Que
+                                        Hacer en Momentos de Crisis, Situaciones Altamente Estresantes, y
+                                        Emergencias</a>
+                                </li>
+                                <li class="text-2 border-bottom border-gray-light">
+                                    <a data-track-ga="[
+                                  { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Latest — What to do in Moments of Crisis, Highly Stressful Situations, and Emergencies&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                                  { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;latest — What to do in Moments of Crisis, Highly Stressful Situations, and Emergencies&quot;}
+                                ]"
+                                        class="color-charcoal padding-vert-small block"
+                                        href="https://www.classcentral.com/report/review-psychological-first-aid/">What
+                                        to do in Moments of Crisis, Highly Stressful Situations, and Emergencies</a>
+                                </li>
+                                <li class="text-2 border-bottom border-gray-light">
+                                    <a data-track-ga="[
+                                  { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Latest — 10 Best Data Science Courses to Take in 2023&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                                  { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;latest — 10 Best Data Science Courses to Take in 2023&quot;}
+                                ]"
+                                        class="color-charcoal padding-vert-small block"
+                                        href="https://www.classcentral.com/report/best-data-science-courses/">10 Best
+                                        Data Science Courses to Take in 2023</a>
+                                </li>
+                                <li class="text-2 border-bottom border-gray-light">
+                                    <a data-track-ga="[
+                                  { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Latest — 10 Best User Experience (UX) Courses to Take in 2023&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                                  { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;latest — 10 Best User Experience (UX) Courses to Take in 2023&quot;}
+                                ]"
+                                        class="color-charcoal padding-vert-small block"
+                                        href="https://www.classcentral.com/report/best-user-experience-courses/">10
+                                        Best User Experience (UX) Courses to Take in 2023</a>
+                                </li>
+                                <li class="text-2 ">
+                                    <a data-track-ga="[
+                                  { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Latest — Learning with MOOCs 2023: Abstracts Due April 3rd&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                                  { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;latest — Learning with MOOCs 2023: Abstracts Due April 3rd&quot;}
+                                ]"
+                                        class="color-charcoal padding-vert-small block"
+                                        href="https://www.classcentral.com/report/learning-with-moocs-2023/">Learning
+                                        with MOOCs 2023: Abstracts Due April 3rd</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="row border-top margin-top-medium padding-top-medium">
+                        <a data-track-ga="[
+                          { &quot;category&quot;: &quot;News&quot;, &quot;action&quot;: &quot;Index&quot;, &quot;label&quot;: &quot;Navbar&quot;},
+                          { &quot;category&quot;: &quot;nav_click&quot;, &quot;action&quot;: &quot;news&quot;, &quot;label&quot;: &quot;index&quot;}
+                        ]"
+                            class="btn-white btn-medium horz-align-right relative" href="/report/">
+                            Visit
+                            <i style="width: 80px; top: 1px;" class="relative inline-block symbol-report">The
+                                Report</i>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
         </ul>
     </div>
     {{-- language --}}
@@ -653,15 +765,18 @@
 <script>
     window.onload = function() {
 
-        dd = document.querySelector('.dropdown');
+        dd = document.querySelectorAll('.dropdown');
         body = document.querySelector('.contain-pages');
-        dd.addEventListener('mouseover', function() {
-            console.log(body);
-            body.classList.add('bluring');
-        });
-        dd.addEventListener('mouseout', function() {
+        dd.forEach(element => {
 
-            body.classList.remove('bluring');
+            element.addEventListener('mouseover', function() {
+                console.log(body);
+                body.classList.add('bluring');
+            });
+            element.addEventListener('mouseout', function() {
+
+                body.classList.remove('bluring');
+            });
         });
     }
 </script>

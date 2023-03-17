@@ -2,7 +2,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="application-name" content="Class Central" />
-  <title itemprop='name'>Class Central • Find the best courses, wherever they exist.</title>
 <link rel="canonical" href="https://www.classcentral.com">
 <meta name="description"
   content="Class Central aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist."/>
