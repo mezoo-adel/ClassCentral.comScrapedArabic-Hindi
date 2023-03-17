@@ -27,12 +27,17 @@ $arabic = [
     "View All" => "مشاهدة الكل",
 ];
 $file = fopen("C:\\Users\\mo3tz\\CentralCourcesTask\\resources\\lang\\en\\home\\navbar.php",'w');
-$arr=[];
+$fileHindi = fopen("C:\\Users\\mo3tz\\CentralCourcesTask\\resources\\lang\\in\\home\\navbar.php",'w');
+$arrEn=[];
+$arrHindi=[];
 foreach ($arabic as $key => $value) {
     # code...
     $arr += [$key => $key];
+    $arrHindi += [$key => ""];
 }
 fwrite($file,json_encode($arr));
+fwrite($fileHindi,json_encode($arrHindi));
 fclose($file);
+fclose($fileHindi);
 // dd($arr);
 return $arabic;

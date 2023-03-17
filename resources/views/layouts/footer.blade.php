@@ -277,7 +277,7 @@
             <a href="/about" class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
               About Class Central
             </a>
-            <p class="text-2">Class Central aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist.</p>
+            <p class="text-2">{{__('home/footer/footer.Class Central aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist.')}}</p>
             <ul class="margin-vert-medium list-no-style list-inline">
               <li class="margin-right-xxsmall"><a rel="noopener" target="_blank" href="https://www.facebook.com/classcentral" class="icon-center icon-facebook-charcoal icon-medium">Facebook</a></li>
               <li class="margin-horz-xxsmall"><a rel="noopener" target="_blank" href="https://www.twitter.com/classcentral" class="icon-center icon-twitter-charcoal icon-medium">Twitter</a></li>
