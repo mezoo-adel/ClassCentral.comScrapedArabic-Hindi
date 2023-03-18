@@ -26,7 +26,7 @@
                                 <i class="icon-search-charcoal icon-medium search-input__search-icon"></i>
                                 <input id="autocomplete-search-746146915" class="search-input__input is-blank"
                                     type="search" autocomplete="off" aria-label="Search courses and more…"
-                                    placeholder="Search 100,000 courses…" name="q"
+                                    placeholder="{{__("home/body/body.Search 100,000 courses…")}}" name="q"
                                     onfocus="showDropdownSearchSuggest()" onblur="hideDropdownSearchSuggest()"
                                     {{-- onmouseup="console.log('77777');" --}} value="" data-name="AUTOCOMPLETE_SEARCHBOX">
                                 <button class="search-input__clear-button" type="button" aria-label="Clear"
@@ -61,7 +61,7 @@
                                     <div class="search-results__results js-autocomplete-results">
 
                                         <div class="search-results__group js-search-result-featured_articles">
-
+{{-- SEARCHHHHHHHHHHHHHHHHH SUGGGGGGGGGGGGGGGGGGGESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTIIOONNNNNNNSSSS --}}
                                             <ol class="list-no-style">
                                                 <li>
 
@@ -256,17 +256,17 @@
 
                         <p
                             class="row vert-align-top horz-align-left text-2 medium-up-text-1 margin-top-xsmall padding-horz-xxsmall">
-                            Or browse by&nbsp; <a class="link-gray-underline" href="/subjects">subject</a>
-                            &nbsp;or&nbsp;<a class="link-gray-underline" href="/universities">university</a>
+                            Or browse by&nbsp; <a class="link-gray-underline" href="/subjects">{{__("home/body/body.subject")}}</a>
+                            &nbsp;or&nbsp;<a class="link-gray-underline" href="/universities">{{__("home/body/body.university")}}</a>
                             <a class="horz-align-right text-1 icon-help-charcoal icon-right-small link-gray-underline"
                                 href="/help/moocs">
-                                <span class="small-down-hidden">Learn more</span>
+                                <span class="small-down-hidden">{{__("home/body/body.Learn more")}}</span>
                             </a>
                         </p>
                     </div>
 
 
-                    <h3 class="text-1 weight-bold margin-bottom-xsmall">Popular courses</h3>
+                    <h3 class="text-1 weight-bold margin-bottom-xsmall">{{__("home/body/body.Popular courses")}}</h3>
                     <ul id="home-subjects" class="list-not-style">
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
                                 href="https://www.classcentral.com/report/free-certificates/ "
@@ -281,7 +281,7 @@
                                     class="radius-circle margin-right-xxsmall"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=5eaf2bfa5357e8a666c9708da88c95c8"
                                     width="25" height="25" alt=""><span
-                                    class="padding-right-xxsmall">Free Certificates</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/body/body.Free Certificates")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
                                 href="/collection/ivy-league-moocs "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
@@ -323,7 +323,7 @@
                                     class="radius-circle margin-right-xxsmall"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-best-all-time.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=57729919423ae4e0cc20fea3df56747d"
                                     width="25" height="25" alt=""><span
-                                    class="padding-right-xxsmall">Best of All Time</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/body/body.Best of All Time")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/subject/cs "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
@@ -336,7 +336,7 @@
                                     class="radius-circle margin-right-xxsmall"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-cs.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=353c0b4c8dc148c83069620078ca0ebe"
                                     width="25" height="25" alt=""><span
-                                    class="padding-right-xxsmall">Computer Science</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/navbar/navbar.Computer Science")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
                                 href="/collection/sustainability-online-courses "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
@@ -350,7 +350,7 @@
                                     class="radius-circle margin-right-xxsmall"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-sustainability.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=d154c083ace7d9bd4779c95563bda007"
                                     width="25" height="25" alt=""><span
-                                    class="padding-right-xxsmall">Sustainability</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/body/body.Sustainability")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/university/mit "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
@@ -402,7 +402,7 @@
                                     class="radius-circle margin-right-xxsmall"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-business.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=b98c8d8725c5d944054f9637460927f1"
                                     width="25" height="25" alt=""><span
-                                    class="padding-right-xxsmall">Business</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/navbar/navbar.Business")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
                                 href="https://www.classcentral.com/report/category/best-courses/ "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
@@ -414,7 +414,7 @@
                           }"
                                 data-track-ga="{&quot;category&quot;:&quot;homepage header&quot;,&quot;action&quot;:&quot;browse links&quot;,&quot;label&quot;:&quot;Best Courses Guides&quot;}"><span
                                     class="icon-lettermark-charcoal icon-large margin-right-xxsmall"></span><span
-                                    class="padding-right-xxsmall">Best Courses Guides</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/body/body.Best Courses Guides")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
                                 href="https://www.classcentral.com/report/online-learning-deals/ "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
@@ -428,7 +428,7 @@
                                     class="radius-circle margin-right-xxsmall"
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fpromobar%2Fdeal.svg?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=9c3031e6bc3996defc5c59def7d6290c"
                                     width="25" height="25" alt=""><span
-                                    class="padding-right-xxsmall">Deals and Discounts</span></a></li>
+                                    class="padding-right-xxsmall">{{__("home/body/body.Deals and Discounts")}}</span></a></li>
                     </ul>
                 </div>
             </section>
@@ -451,7 +451,7 @@
 
                     <ul class="list-no-style row large-up-nowrap">
                         <li class="border-box width-100 large-up-width-3-7 padding-horz-small relative">
-                            <h3 class="head-2 text-center large-up-text-left margin-bottom-large">1200+ Universities
+                            <h3 class="head-2 text-center large-up-text-left margin-bottom-large">{{__("home/body/body.1200+ Universities")}}
                             </h3>
                             <ul class="width-100 row list-no-style margin-bottom-xlarge">
                                 <li class="width-100 large-up-width-1-2">
@@ -576,14 +576,14 @@
                                 <a href="/universities" class="btn-gradient-purple scale-on-hover">
                                     <span
                                         class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
-                                        Browse universities
+                                        {{__("home/body/body.Browse universities")}}
                                     </span>
                                 </a>
                             </div>
                         </li>
                         <li
                             class="medium-down-hidden decor-grid-line border-box width-100 large-up-width-2-7 padding-horz-small large-up-padding-horz-large relative">
-                            <h3 class="head-2 text-left margin-bottom-large">80 Providers</h3>
+                            <h3 class="head-2 text-left margin-bottom-large">{{__("home/body/body.80 Providers")}}</h3>
                             <ul class="width-100 row list-no-style margin-bottom-xlarge">
                                 <li class="width-100">
                                     <a href="/provider/coursera"
@@ -653,14 +653,14 @@
                                 <a href="/providers" class="btn-gradient-purple scale-on-hover">
                                     <span
                                         class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
-                                        Browse providers
+                                        {{__("home/body/body.Browse providers")}}
                                     </span>
                                 </a>
                             </div>
                         </li>
                         <li
                             class="medium-down-hidden decor-grid-line border-box width-100 large-up-width-2-7 padding-horz-small large-up-padding-horz-large relative">
-                            <h3 class="head-2 text-left margin-bottom-large">1000+ Institutions</h3>
+                            <h3 class="head-2 text-left margin-bottom-large">{{__("home/body/body.1000+ Institutions")}}</h3>
                             <ul class="width-100 row list-no-style margin-bottom-xlarge">
                                 <li class="width-100">
                                     <a href="/institution/google"
@@ -668,7 +668,7 @@
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fgoogle.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=28a13d6dddffe8d861ff5decfb83a695"
                                             alt="Google Logo">
-                                        <strong class="margin-left-xsmall fill-space">Google</strong>
+                                        <strong class="margin-left-xsmall fill-space">{{__("home/footer/footer.Google")}}</strong>
                                     </a>
                                 </li>
                                 <li class="width-100">
@@ -677,7 +677,7 @@
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Famazon.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=41e781e76e91b5059a7fbc2168283667"
                                             alt="Amazon Logo">
-                                        <strong class="margin-left-xsmall fill-space">Amazon</strong>
+                                        <strong class="margin-left-xsmall fill-space">{{__("home/footer/footer.Amazon")}}</strong>
                                     </a>
                                 </li>
                                 <li class="width-100">
@@ -686,7 +686,7 @@
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fmicrosoft.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=2e82f16f3e381d409b5b2924c9665bd7"
                                             alt="Microsoft Logo">
-                                        <strong class="margin-left-xsmall fill-space">Microsoft</strong>
+                                        <strong class="margin-left-xsmall fill-space">{{__("home/footer/footer.Microsoft")}}</strong>
                                     </a>
                                 </li>
                                 <li class="width-100">
@@ -695,7 +695,7 @@
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fibm.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=fbb4ccdbbb895bfc02137b42107f2edf"
                                             alt="IBM Logo">
-                                        <strong class="margin-left-xsmall fill-space">IBM</strong>
+                                        <strong class="margin-left-xsmall fill-space">{{__("home/footer/footer.IBM")}}</strong>
                                     </a>
                                 </li>
                                 <li class="width-100">
@@ -713,7 +713,7 @@
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Funited-nations.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=6d29c7e53511de20226e41e2ea583662"
                                             alt="United Nations Logo">
-                                        <strong class="margin-left-xsmall fill-space">United Nations</strong>
+                                        <strong class="margin-left-xsmall fill-space">{{__("home/footer/footer.United Nations")}}</strong>
                                     </a>
                                 </li>
                                 <li class="width-100">
@@ -722,7 +722,7 @@
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fbritish-council.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=ce4a3136cf6152a19e7e89a15dc790a7"
                                             alt="British Council Logo">
-                                        <strong class="margin-left-xsmall fill-space">British Council</strong>
+                                        <strong class="margin-left-xsmall fill-space">{{__("home/footer/footer.British Council")}}</strong>
                                     </a>
                                 </li>
                             </ul>
@@ -730,7 +730,7 @@
                                 <a href="/institutions" class="btn-gradient-purple scale-on-hover">
                                     <span
                                         class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
-                                        Browse institutions
+                                        {{__("home/body/body.Browse institutions")}}
                                     </span>
                                 </a>
                             </div>
@@ -754,10 +754,10 @@
                                     d="M38.9577 22.0208C38.803 21.5515 38.9607 21.0248 39.3365 20.7552L43.5606 17.7255C44.3595 17.1525 43.9976 15.7647 43.0494 15.7647H37.5488C37.1516 15.7647 36.7965 15.4873 36.6587 15.0695L34.8884 9.69909C34.5829 8.77218 33.4139 8.77218 33.1084 9.69909L31.3381 15.0695C31.2003 15.4873 30.8452 15.7647 30.448 15.7647H24.9506C24.0021 15.7647 23.6405 17.1531 24.4398 17.7258L28.668 20.7549C29.0444 21.0245 29.2021 21.5521 29.0469 22.0217L27.3984 27.007C27.082 27.9641 28.0321 28.8234 28.7991 28.2738L33.4875 24.914C33.799 24.6908 34.1978 24.6908 34.5093 24.914L39.2017 28.2766C39.9683 28.826 40.9181 27.9678 40.6026 27.0108L38.9577 22.0208Z"
                                     fill="white"></path>
                             </svg>
-                            Rankings
+                            {{__("home/body/body.Rankings")}}
                         </h2>
                         <p class="head-3 weight-semi max-450 width-centered border-box">
-                            Tens of thousands of reviews written by Class Central users help you pick the best course.
+                            {{__("home/body/body.Tens of thousands of reviews written by Class Central users help you pick the best course.")}}
                         </p>
                     </header>
 
@@ -786,7 +786,7 @@
                     <div class="text-center margin-bottom-xlarge">
                         <a href="/rankings" class="btn-gradient-orange scale-on-hover">
                             <span class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal ">
-                                View rankings
+                                {{__("home/body/body.View rankings")}}
                             </span>
                         </a>
                     </div>
@@ -1339,7 +1339,7 @@
                     <div class="width-100 border-box large-up-padding-right-large large-up-width-1-2">
                         <h3
                             class="text-2 weight-semi upper padding-bottom-xxsmall border-bottom border-gray margin-bottom-medium">
-                            Recent articles
+                            {{__("home/body/body.RECENT ARTICLES")}}
                             <a href="https://www.classcentral.com/report/feed/"
                                 class="margin-left-xxsmall icon-center icon-small icon-rss-charcoal">RSS Feed</a>
                         </h3>
@@ -1574,7 +1574,7 @@
                     <div class="width-100 border-box larage-up-padding-left-large large-up-width-1-2">
                         <h3
                             class="text-2 padding-bottom-xxsmall weight-semi upper border-bottom border-gray margin-bottom-medium">
-                            Best Courses Guides</h3>
+                            {{__("home/body/body.Best Courses Guides")}}</h3>
                         <ul class="margin-bottom-xlarge list-no-style">
                             <li class="row margin-bottom-medium  border-bottom border-gray padding-bottom-medium">
                                 <div class="width-100 medium-up-width-1-3 horz-align-left row">
@@ -1781,7 +1781,7 @@
                         <a href="/collections" class="btn-gradient scale-on-hover"
                             style="--gradient-one: rgb(131,197,200); --gradient-two: rgba(131,197,200,0.3); --gradient-three: rgba(131,197,200,0);">
                             <span class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
-                                Browse collections
+                                {{__("home/body/body.Browse collections")}}
                             </span>
                         </a>
                     </div>

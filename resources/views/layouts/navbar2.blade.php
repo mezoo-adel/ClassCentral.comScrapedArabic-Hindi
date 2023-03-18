@@ -595,33 +595,6 @@
                         </ul>
                     </li>
                     {{-- WEeeeeeeeee PASTEeeeeee BEFORE HEREEEEEEEEEEEEEEEEEEEE --}}
-                    <li class="nav-item" id="myDropdown">
-                        <a class="main-nav-dropdown__item-control color-charcoal" href="#"
-                            data-bs-toggle="dropdown">
-                            <span> Treeview menu </span>
-                            <span class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"></span>
-                        </a>
-                        <ul class="dropdown-menu submenu">
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
-                            <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
-                        </ul>
-                    </li>
-                    <a class="dropdown-item" href="#">Something else here</a>
 
                 </div>
             </section>
@@ -765,7 +738,7 @@
 <script>
     window.onload = function() {
 
-        dd = document.querySelectorAll('.dropdown');
+        dd = document.querySelectorAll('.nav-link');
         body = document.querySelector('.contain-pages');
         dd.forEach(element => {
 

@@ -20,6 +20,7 @@ $arabic = [
     "Microsoft" => "مايكروسوفت",
     "IBM" => "آي بي إم",
     "Amazon" => "أمازون",
+    "United Nations"=>'الأمم المتحدة',
     "Linux Foundation" => "مؤسسة لينكس",
     "British Council" => "المجلس الثقافي البريطاني",
     'LinkedIn Learning' => "لينكدإن للتعلم",
