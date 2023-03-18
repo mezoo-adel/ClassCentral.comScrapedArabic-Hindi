@@ -1,5 +1,6 @@
-<?php [
-    "Search 100,000 courses..." => "Search 100,000 courses...",
+<?php
+return [
+    "Search 100,000 courses…" => "Search 100,000 courses...",
     "Popular courses" => "Popular courses",
     "subject" => "subject",
     "university" => "university",
@@ -19,6 +20,5 @@
     "RECENT ARTICLES" => "RECENT ARTICLES",
     "View rankings" => "View rankings",
     "Rankings" => "Rankings",
-    "Tens of thousands of reviews written by Class Central users help you pick the best course." =>
-        "Tens of thousands of reviews written by Class Central users help you pick the best course.",
+    "Tens of thousands of reviews written by Class Central users help you pick the best course." => "Tens of thousands of reviews written by Class Central users help you pick the best course.",
 ];

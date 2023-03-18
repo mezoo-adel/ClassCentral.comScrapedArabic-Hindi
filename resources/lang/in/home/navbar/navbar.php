@@ -1,7 +1,6 @@
 <?php
 
 return [
-    "Lang" => "Hindi",
     "Courses" => "पाठ्यक्रम",
     "The Report" => "The Report",
     "Log In" => "लॉग इन",

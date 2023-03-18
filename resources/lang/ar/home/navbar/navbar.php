@@ -28,5 +28,5 @@ $arabic = [
     "View All" => "مشاهدة الكل",
 ];
 use App\CustomHelper\TranslateHelper;
-TranslateHelper::transFileGenerator('footer.php', 'footer.php', $arabic);
+TranslateHelper::transFileGenerator("navbar", "navbar", $arabic);
 return $arabic;

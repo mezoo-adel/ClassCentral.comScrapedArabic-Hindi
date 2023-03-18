@@ -1,4 +1,5 @@
-<?php return [
+<?php
+return [
     "Browse by subject" => "विषय के अनुसार ब्राउज़ करें",
     "Computer Science" => "कंप्यूटर विज्ञान",
     "Psychology" => "मनोविज्ञान",
@@ -40,6 +41,10 @@
     "1700 Free Coursera Courses" => "1700 मुफ़्त कोर्सेरा कोर्स",
     "175+ Free Writing Online Courses" => "175+ निःशुल्क ऑनलाइन लेखन पाठ्यक्रम",
     "About Class Central" => "सेंट्रल क्लास के बारे में",
-    "Class Central aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist." =>
-    "कक्षा केंद्रीय कई प्रदाताओं से पाठ्यक्रम एकत्र करता है ताकि आपको लगभग किसी भी विषय पर सर्वोत्तम पाठ्यक्रम खोजने में मदद मिल सके, चाहे वे कहीं भी मौजूद हों।",
+    "Class Central aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist." => "कक्षा केंद्रीय कई प्रदाताओं से पाठ्यक्रम एकत्र करता है ताकि आपको लगभग किसी भी विषय पर सर्वोत्तम पाठ्यक्रम खोजने में मदद मिल सके, चाहे वे कहीं भी मौजूद हों।",
+    "Privacy Policy" => "गोपनीयता नीति",
+    "About Us" => "हमारे बारे में",
+    "Join Us" => "हमसे जुड़ें",
+    "Help Center" => "सहायता केंद्र",
+    "Contact Us" => "हमसे संपर्क करें",
 ];

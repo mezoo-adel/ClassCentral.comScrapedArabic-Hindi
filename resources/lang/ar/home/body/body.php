@@ -1,5 +1,4 @@
 <?php
-use App\CustomHelper\TranslateHelper;
 $arabic = [
     "Search 100,000 courses…" => 'ابحث فى اكثر من 100.000 كورس',
     "Popular courses" => "كورسات شائعة",
@@ -23,7 +22,7 @@ $arabic = [
     "Rankings" => 'الترتيب',
     "Tens of thousands of reviews written by Class Central users help you pick the best course."=>"تساعدك عشرات الآلاف من المراجعات التي كتبها مستخدمو كلاس سنترال في اختيار أفضل مسار."
 ];
-
+use App\CustomHelper\TranslateHelper;
 TranslateHelper::transFileGenerator("body", "body", $arabic);
 
 return $arabic;

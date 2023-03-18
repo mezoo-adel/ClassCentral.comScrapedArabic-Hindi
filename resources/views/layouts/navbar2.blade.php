@@ -247,7 +247,7 @@
                     </li>
                     <div class="main-nav-dropdown__section-header">
                         <hr class="dropdown-divider my-2">
-                        <h3 class="main-nav-dropdown__section-heading">Subjects</h3>
+                        <h3 class="main-nav-dropdown__section-heading">{{__("home/navbar/subjects.Subjects")}}</h3>
                     </div>
                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#csMenu">
                         <a class="main-nav-dropdown__item-control color-charcoal">

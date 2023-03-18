@@ -48,6 +48,6 @@ $arabic = [
 
 ];
 use App\CustomHelper\TranslateHelper;
-TranslateHelper::transFileGenerator('footer.php','footer.php',$arabic);
+TranslateHelper::transFileGenerator("footer","footer",$arabic);
 
 return $arabic;

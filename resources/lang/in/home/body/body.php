@@ -1,4 +1,5 @@
-<?php [
+<?php
+return [
     "Search 100,000 courses..." => "100,000 पाठ्यक्रम खोजें...",
     "Popular courses" => "लोकप्रिय पाठ्यक्रम",
     "subject" => "विषय",
@@ -19,6 +20,5 @@
     "RECENT ARTICLES" => "हाल के लेख",
     "View rankings" => "रैंकिंग देखें",
     "Rankings" => "रैंकिंग",
-    "Tens of thousands of reviews written by Class Central users help you pick the best course." =>
-        "क्लास सेंट्रल उपयोगकर्ताओं द्वारा लिखी गई हजारों समीक्षाएं आपको सर्वोत्तम पाठ्यक्रम चुनने में मदद करती हैं।",
+    "Tens of thousands of reviews written by Class Central users help you pick the best course." =>"क्लास सेंट्रल उपयोगकर्ताओं द्वारा लिखी गई हजारों समीक्षाएं आपको सर्वोत्तम पाठ्यक्रम चुनने में मदद करती हैं।",
 ];

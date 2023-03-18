@@ -1,7 +1,6 @@
 <?php
 
 return [
-    "Lang" => "English",
     "Courses" => "Courses",
     "The Report" => "The Report",
     "Log In" => "Log In",
