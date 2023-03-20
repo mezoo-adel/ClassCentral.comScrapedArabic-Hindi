@@ -142,7 +142,7 @@
 
 
                                                     <a class="search-results__result js-autocomplete-result"
-                                                        href="/subject/self-improvement"
+                                                        href="https://www.classcentral.com/subject/self-improvement"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;subject&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cSelf&#x20;Improvement&#x5C;u201d&quot;&#x7D;">
                                                         <i
                                                             class="search-results__result-icon icon-subject-charcoal icon-small"></i>
@@ -159,7 +159,7 @@
 
 
                                                     <a class="search-results__result js-autocomplete-result"
-                                                        href="/subject/project-management"
+                                                        href="https://www.classcentral.com/subject/project-management"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;subject&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cProject&#x20;Management&#x5C;u201d&quot;&#x7D;">
                                                         <i
                                                             class="search-results__result-icon icon-subject-charcoal icon-small"></i>
@@ -176,7 +176,7 @@
 
 
                                                     <a class="search-results__result js-autocomplete-result"
-                                                        href="/subject/digital-marketing"
+                                                        href="https://www.classcentral.com/subject/digital-marketing"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;subject&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cDigital&#x20;Marketing&#x5C;u201d&quot;&#x7D;">
                                                         <i
                                                             class="search-results__result-icon icon-subject-charcoal icon-small"></i>
@@ -199,7 +199,7 @@
 
 
                                                     <a class="search-results__result js-autocomplete-result"
-                                                        href="/course/programming1-385"
+                                                        href="https://www.classcentral.com/cource/programming1-385"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;course&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cLearn&#x20;to&#x20;Program&#x3A;&#x20;The&#x20;Fundamentals&#x5C;u201d&quot;&#x7D;">
                                                         <i
                                                             class="search-results__result-icon icon-course-charcoal icon-small"></i>
@@ -216,7 +216,7 @@
 
 
                                                     <a class="search-results__result js-autocomplete-result"
-                                                        href="/course/edx-introduccion-a-la-genetica-y-la-evolucion-8591"
+                                                        href="https://www.classcentral.com/cource/edx-introduccion-a-la-genetica-y-la-evolucion-8591"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;course&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cIntroducci&#x5C;u00f3n&#x20;a&#x20;la&#x20;gen&#x5C;u00e9tica&#x20;y&#x20;la&#x20;evoluci&#x5C;u00f3n&#x5C;u201d&quot;&#x7D;">
                                                         <i
                                                             class="search-results__result-icon icon-course-charcoal icon-small"></i>
@@ -233,7 +233,7 @@
 
 
                                                     <a class="search-results__result js-autocomplete-result"
-                                                        href="/course/multilingual-practices-8096"
+                                                        href="https://www.classcentral.com/cource/multilingual-practices-8096"
                                                         data-track-ga="&#x7B;&quot;category&quot;&#x3A;&quot;autocomplete&#x20;empty&#x20;state&quot;,&quot;action&quot;&#x3A;&quot;course&quot;,&quot;label&quot;&#x3A;&quot;Entry&#x3A;&#x20;&#x5C;u201cMultilingual&#x20;Practices&#x3A;&#x20;Tackling&#x20;Challenges&#x20;and&#x20;Creating&#x20;Opportunities&#x5C;u201d&quot;&#x7D;">
                                                         <i
                                                             class="search-results__result-icon icon-course-charcoal icon-small"></i>
@@ -256,10 +256,10 @@
 
                         <p
                             class="row vert-align-top horz-align-left text-2 medium-up-text-1 margin-top-xsmall padding-horz-xxsmall">
-                            Or browse by&nbsp; <a class="link-gray-underline" href="/subjects">{{__("home/body/body.subject")}}</a>
-                            &nbsp;or&nbsp;<a class="link-gray-underline" href="/universities">{{__("home/body/body.university")}}</a>
+                            Or browse by&nbsp; <a class="link-gray-underline" href="https://www.classcentral.com/subjects">{{__("home/body/body.subject")}}</a>
+                            &nbsp;or&nbsp;<a class="link-gray-underline" href="https://www.classcentral.com/universities">{{__("home/body/body.university")}}</a>
                             <a class="horz-align-right text-1 icon-help-charcoal icon-right-small link-gray-underline"
-                                href="/help/moocs">
+                                href="https://www.classcentral.com/help/moocs">
                                 <span class="small-down-hidden">{{__("home/body/body.Learn more")}}</span>
                             </a>
                         </p>
@@ -283,7 +283,7 @@
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">{{__("home/body/body.Free Certificates")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
-                                href="/collection/ivy-league-moocs "
+                                href="https://www.classcentral.com/collection/ivy-league-moocs "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -297,7 +297,7 @@
                                     width="25" height="25" alt=""><span class="padding-right-xxsmall">Ivy
                                     League</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
-                                href="/university/stanford "
+                                href="https://www.classcentral.com/university/stanford "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -311,7 +311,7 @@
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">Stanford</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
-                                href="/collection/top-free-online-courses "
+                                href="https://www.classcentral.com/collection/top-free-online-courses "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -324,7 +324,7 @@
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-best-all-time.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=57729919423ae4e0cc20fea3df56747d"
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">{{__("home/body/body.Best of All Time")}}</span></a></li>
-                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/subject/cs "
+                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="https://www.classcentral.com/subject/cs "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -338,7 +338,7 @@
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">{{__("home/navbar/navbar.Computer Science")}}</span></a></li>
                         <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a
-                                href="/collection/sustainability-online-courses "
+                                href="https://www.classcentral.com/collection/sustainability-online-courses "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -351,7 +351,7 @@
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-sustainability.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=d154c083ace7d9bd4779c95563bda007"
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">{{__("home/body/body.Sustainability")}}</span></a></li>
-                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/university/mit "
+                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="https://www.classcentral.com/university/mit "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -364,7 +364,7 @@
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fmit-trn-sq.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=23432d71793524105bee93b332ab7424"
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">MIT</span></a></li>
-                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/institution/google "
+                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="https://www.classcentral.com/institution/google "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -377,7 +377,7 @@
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fgoogle-trn-sq.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=43d21ab54c9c89dac23dd72c80bc887b"
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">Google</span></a></li>
-                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/institution/amazon "
+                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="https://www.classcentral.com/institution/amazon "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -390,7 +390,7 @@
                                     src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Famazon-trn-sq.png?auto=format&amp;h=50&amp;ixlib=php-3.3.1&amp;s=74217eb4aea11f57834caf58c19ba539"
                                     width="25" height="25" alt=""><span
                                     class="padding-right-xxsmall">Amazon</span></a></li>
-                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="/subject/business "
+                        <li class="inline-block margin-right-xxsmall margin-bottom-xxsmall"><a href="https://www.classcentral.com/subject/business "
                                 class="bg-gray-xlight text-3 scale-on-hover hover-no-underline color-charcoal border-all border-gray-light radius-large padding-xxsmall row vert-align-middle"
                                 target="_blank" data-track-click="homepage_click"
                                 data-track-props="{
@@ -455,7 +455,7 @@
                             </h3>
                             <ul class="width-100 row list-no-style margin-bottom-xlarge">
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/harvard"
+                                    <a href="https://www.classcentral.com/university/harvard"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fharvard.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=e177bee72e03d5df7c50177940004b51"
@@ -464,7 +464,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/stanford"
+                                    <a href="https://www.classcentral.com/university/stanford"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fstanford.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=88952c24aeee5f18451e40581c99deac"
@@ -473,7 +473,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/iit-kharagpur"
+                                    <a href="https://www.classcentral.com/university/iit-kharagpur"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fiit-kharagpur.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=240da08e01eed98192e99ce4f1d6ce97"
@@ -482,7 +482,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/mit"
+                                    <a href="https://www.classcentral.com/university/mit"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fmit.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=5e57f727cf0057460f8bee7213cd3539"
@@ -491,7 +491,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/rice"
+                                    <a href="https://www.classcentral.com/university/rice"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Frice.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=a4cd65fffbdcfa9e4f713a0f8727ca9f"
@@ -500,7 +500,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/iitm"
+                                    <a href="https://www.classcentral.com/university/iitm"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fiitm.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=78fd57bad00a8445c4a83e942421bdfa"
@@ -509,7 +509,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/columbia"
+                                    <a href="https://www.classcentral.com/university/columbia"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fcolumbia.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=cda5c4e367a8d8597981733b1a1e2020"
@@ -518,7 +518,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/cornell"
+                                    <a href="https://www.classcentral.com/university/cornell"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fcornell.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=c281a17cd599f91a73543731494ff4de"
@@ -527,7 +527,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/edinburgh"
+                                    <a href="https://www.classcentral.com/university/edinburgh"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fedinburgh.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=02e1424f140c413a5f4bff39345aade7"
@@ -536,7 +536,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/purdue"
+                                    <a href="https://www.classcentral.com/university/purdue"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fpurdue.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=57260d55af3c798ab3c3c38fd644d5dc"
@@ -545,7 +545,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/penn"
+                                    <a href="https://www.classcentral.com/university/penn"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fpenn.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=9be4953459c0a57a968f58552de3da24"
@@ -554,7 +554,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/duke"
+                                    <a href="https://www.classcentral.com/university/duke"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fduke.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=7badaeb1866525d65f9e1b769fd1c8a8"
@@ -563,7 +563,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100 large-up-width-1-2">
-                                    <a href="/university/umich"
+                                    <a href="https://www.classcentral.com/university/umich"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fumich.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=c3639dfc0b29edccbff274081475d99f"
@@ -573,7 +573,7 @@
                                 </li>
                             </ul>
                             <div class="text-left margin-bottom-xlarge">
-                                <a href="/universities" class="btn-gradient-purple scale-on-hover">
+                                <a href="https://www.classcentral.com/universities" class="btn-gradient-purple scale-on-hover">
                                     <span
                                         class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
                                         {{__("home/body/body.Browse universities")}}
@@ -586,7 +586,7 @@
                             <h3 class="head-2 text-left margin-bottom-large">{{__("home/body/body.80 Providers")}}</h3>
                             <ul class="width-100 row list-no-style margin-bottom-xlarge">
                                 <li class="width-100">
-                                    <a href="/provider/coursera"
+                                    <a href="https://www.classcentral.com/provider/coursera"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fcoursera-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=25870ffbba482c2c8dca6ab7233fa851"
@@ -595,7 +595,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/provider/edx"
+                                    <a href="https://www.classcentral.com/provider/edx"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fedx-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=86be374faaa2c332611cd8a1cb508975"
@@ -604,7 +604,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/provider/futurelearn"
+                                    <a href="https://www.classcentral.com/provider/futurelearn"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Ffuturelearn-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=890afa9595255a6e9b8884ddc515d769"
@@ -613,7 +613,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/provider/udemy"
+                                    <a href="https://www.classcentral.com/provider/udemy"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fudemy-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=918f4790c5c5818a022e23be21061434"
@@ -622,7 +622,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/provider/swayam"
+                                    <a href="https://www.classcentral.com/provider/swayam"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fswayam-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=d66b9084f03e29797282e157f846187f"
@@ -631,7 +631,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/provider/linkedin-learning"
+                                    <a href="https://www.classcentral.com/provider/linkedin-learning"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Flinkedin-learning-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=7deeee41ea2d12f795bfdc405a89c496"
@@ -640,7 +640,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/provider/skillshare"
+                                    <a href="https://www.classcentral.com/provider/skillshare"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50" class="radius"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fproviders%2Fskillshare-trn-sq.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=d9e51a1e711dbb0e1cb34e4c63551231"
@@ -650,7 +650,7 @@
                                 </li>
                             </ul>
                             <div class="text-left margin-bottom-xlarge">
-                                <a href="/providers" class="btn-gradient-purple scale-on-hover">
+                                <a href="https://www.classcentral.com/providers" class="btn-gradient-purple scale-on-hover">
                                     <span
                                         class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
                                         {{__("home/body/body.Browse providers")}}
@@ -663,7 +663,7 @@
                             <h3 class="head-2 text-left margin-bottom-large">{{__("home/body/body.1000+ Institutions")}}</h3>
                             <ul class="width-100 row list-no-style margin-bottom-xlarge">
                                 <li class="width-100">
-                                    <a href="/institution/google"
+                                    <a href="https://www.classcentral.com/institution/google"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fgoogle.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=28a13d6dddffe8d861ff5decfb83a695"
@@ -672,7 +672,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/institution/amazon"
+                                    <a href="https://www.classcentral.com/institution/amazon"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Famazon.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=41e781e76e91b5059a7fbc2168283667"
@@ -681,7 +681,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/institution/microsoft"
+                                    <a href="https://www.classcentral.com/institution/microsoft"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fmicrosoft.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=2e82f16f3e381d409b5b2924c9665bd7"
@@ -690,7 +690,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/institution/ibm"
+                                    <a href="https://www.classcentral.com/institution/ibm"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fibm.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=fbb4ccdbbb895bfc02137b42107f2edf"
@@ -699,7 +699,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/institution/smithsonian"
+                                    <a href="https://www.classcentral.com/institution/smithsonian"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fsmithsonian.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=ce8c63e4445f3cfed1a9f95579a52d11"
@@ -708,7 +708,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/institution/united-nations"
+                                    <a href="https://www.classcentral.com/institution/united-nations"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Funited-nations.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=6d29c7e53511de20226e41e2ea583662"
@@ -717,7 +717,7 @@
                                     </a>
                                 </li>
                                 <li class="width-100">
-                                    <a href="/institution/british-council"
+                                    <a href="https://www.classcentral.com/institution/british-council"
                                         class="scale-on-hover text-1 row horz-align-left nowrap color-charcoal hover-no-underline text-no-underline vert-align-middle radius-small hover-bg-purple-light padding-horz-xsmall padding-vert-xxsmall">
                                         <img width="50"
                                             src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Fhomepage%2Fbritish-council.png?auto=format&amp;cs=strip&amp;fit=&amp;h=50&amp;ixlib=php-3.3.1&amp;w=50&amp;s=ce4a3136cf6152a19e7e89a15dc790a7"
@@ -727,7 +727,7 @@
                                 </li>
                             </ul>
                             <div class="text-left margin-bottom-xlarge">
-                                <a href="/institutions" class="btn-gradient-purple scale-on-hover">
+                                <a href="https://www.classcentral.com/institutions" class="btn-gradient-purple scale-on-hover">
                                     <span
                                         class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
                                         {{__("home/body/body.Browse institutions")}}
@@ -765,7 +765,7 @@
                         <li class="width-100 border-box padding-small large-up-width-1-2 border-box">
                             <a data-track-click="homepage_click"
                                 data-track-props="{ &quot;type&quot;: &quot;Best Courses&quot;, &quot;title&quot;: &quot;All-Time&quot;, &quot;section&quot;: &quot;Class Central&quot; }"
-                                href="/collection/top-free-online-courses">
+                                href="https://www.classcentral.com/collection/top-free-online-courses">
                                 <img src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-best-of-all-time.png?auto=format&amp;ixlib=php-3.3.1&amp;s=2243a68cbc2b37e04fdf74e1b8ea98f9"
                                     alt="Best Online Courses of All Time" class="width-100 block radius scale-on-hover"
                                     style="box-shadow: 0px 0px 5px rgba(236, 176, 149, 0.7);">
@@ -784,7 +784,7 @@
                     </ul>
 
                     <div class="text-center margin-bottom-xlarge">
-                        <a href="/rankings" class="btn-gradient-orange scale-on-hover">
+                        <a href="https://www.classcentral.com/rankings" class="btn-gradient-orange scale-on-hover">
                             <span class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal ">
                                 {{__("home/body/body.View rankings")}}
                             </span>
@@ -1258,7 +1258,7 @@
                         <h2
                             class="head-2 medium-up-head-1 color-white margin-bottom-medium large-up-margin-bottom-xxlarge">
                             Get the most out of <span style="white-space: nowrap;">Class Central</span> with a
-                            <a data-name="SIGNUP_LINK" data-detail='{ "source": "homepage_stats" }' href="/signup"
+                            <a data-name="SIGNUP_LINK" data-detail='{ "source": "homepage_stats" }' href="https://www.classcentral.com/signup"
                                 title="Sign up for Class Central" class="head-2 medium-up-head-1 color-yellow">
                                 free account
                             </a>
@@ -1778,7 +1778,7 @@
                     </ul>
 
                     <div class="text-center margin-bottom-xlarge">
-                        <a href="/collections" class="btn-gradient scale-on-hover"
+                        <a href="https://www.classcentral.com/collections" class="btn-gradient scale-on-hover"
                             style="--gradient-one: rgb(131,197,200); --gradient-two: rgba(131,197,200,0.3); --gradient-three: rgba(131,197,200,0);">
                             <span class="text-1 weight-semi icon-chevron-right-charcoal icon-right-small color-charcoal">
                                 {{__("home/body/body.Browse collections")}}

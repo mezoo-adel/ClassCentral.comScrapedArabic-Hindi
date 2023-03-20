@@ -13,138 +13,138 @@
         <nav class="row wrap xlarge-up-nowrap margin-bottom-medium">
             <div class="row width-100 medium-up-width-4-5 xlarge-up-width-1-2">
                 <div class="width-100 large-up-width-1-3 border-box padding-right-medium margin-bottom-medium">
-                    <a href="/subjects"
+                    <a href="https://www.classcentral.com/subjects"
                         class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         {{ __('home/footer/footer.Browse by subject') }}
                     </a>
                     <ul class="list-no-style text-2">
                         <li class="margin-vert-xxsmall">
                             <a class="color-charcoal"
-                                href="/subject/cs">{{ __('home/footer/footer.Computer Science') }}</a>
+                                href="https://www.classcentral.com/subject/cs">{{ __('home/footer/footer.Computer Science') }}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
                             <a class="color-charcoal"
-                                href="/subject/psychology">{{ __('home/footer/footer.Psychology') }}</a>
+                                href="https://www.classcentral.com/subject/psychology">{{ __('home/footer/footer.Psychology') }}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
                             <a class="color-charcoal"
-                                href="/subject/cybersecurity">{{ __('home/footer/footer.Cybersecurity') }}</a>
+                                href="https://www.classcentral.com/subject/cybersecurity">{{ __('home/footer/footer.Cybersecurity') }}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/subject/health">{{ __('home/footer/footer.Health') }}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/subject/health">{{ __('home/footer/footer.Health') }}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/subject/law">{{ __('home/footer/footer.Law') }}</a>
-                        </li>
-                        <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal"
-                                href="/subject/accounting">{{ __('home/footer/footer.Accounting') }}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/subject/law">{{ __('home/footer/footer.Law') }}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
                             <a class="color-charcoal"
-                                href="/subject/web-development">{{ __('home/footer/footer.Web Development') }}</a>
+                                href="https://www.classcentral.com/subject/accounting">{{ __('home/footer/footer.Accounting') }}</a>
+                        </li>
+                        <li class="margin-vert-xxsmall">
+                            <a class="color-charcoal"
+                                href="https://www.classcentral.com/subject/web-development">{{ __('home/footer/footer.Web Development') }}</a>
                         </li>
                     </ul>
                 </div>
                 <div class="width-100 large-up-width-1-3 border-box padding-right-medium margin-bottom-medium">
-                    <a href="/providers"
+                    <a href="https://www.classcentral.com/providers"
                         class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         {{ __('home/footer/footer.Browse by provider') }}
                     </a>
                     <ul class="list-no-style text-2">
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/coursera">{{__("home/footer/footer.Coursera")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/coursera">{{__("home/footer/footer.Coursera")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/edx">{{__("home/footer/footer.edX")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/edx">{{__("home/footer/footer.edX")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/futurelearn">{{__("home/footer/footer.FutureLearn")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/futurelearn">{{__("home/footer/footer.FutureLearn")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/udacity">{{__("home/footer/footer.Udacity")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/udacity">{{__("home/footer/footer.Udacity")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/swayam">Swayam</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/swayam">Swayam</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/udemy">{{__("home/footer/footer.Udemy")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/udemy">{{__("home/footer/footer.Udemy")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/provider/linkedin-learning">{{__("home/footer/footer.LinkedIn Learning")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/provider/linkedin-learning">{{__("home/footer/footer.LinkedIn Learning")}}</a>
                         </li>
 
                     </ul>
                 </div>
                 <div class="width-100 large-up-width-1-3 border-box padding-right-medium margin-bottom-medium">
-                    <a href="/universities"
+                    <a href="https://www.classcentral.com/universities"
                         class="inline-block text-2 margin-bottom-xxsmall color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         {{__("home/footer/footer.Browse by university")}}
                     </a>
                     <ul class="list-no-style text-2">
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/harvard">Harvard</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/harvard">Harvard</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/stanford">Stanford</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/stanford">Stanford</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/gatech">Georgia Tech</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/gatech">Georgia Tech</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/umich">University of Michigan</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/umich">University of Michigan</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/purdue">Purdue University</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/purdue">Purdue University</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/duke">Duke University</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/duke">Duke University</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/university/iitm">IIT Madras</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/university/iitm">IIT Madras</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row width-100 medium-up-width-3-5 xlarge-up-width-1-2">
                 <div class="width-100 large-up-width-2-5 border-box padding-right-medium margin-bottom-medium">
-                    <a href="/institutions"
+                    <a href="https://www.classcentral.com/institutions"
                         class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         {{ __('home/footer/footer.Browse by institution') }}
                     </a>
                     <ul class="list-no-style text-2">
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/google">{{__("home/footer/footer.Google")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/google">{{__("home/footer/footer.Google")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/microsoft">{{__("home/footer/footer.Microsoft")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/microsoft">{{__("home/footer/footer.Microsoft")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/ibm">{{__("home/footer/footer.IBM")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/ibm">{{__("home/footer/footer.IBM")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/amazon">{{__("home/footer/footer.Amazon")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/amazon">{{__("home/footer/footer.Amazon")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/linuxfoundation">{{__("home/footer/footer.Linux Foundation")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/linuxfoundation">{{__("home/footer/footer.Linux Foundation")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/british-council">{{__("home/footer/footer.British Council")}}</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/british-council">{{__("home/footer/footer.British Council")}}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
-                            <a class="color-charcoal" href="/institution/salesforce">Salesforce</a>
+                            <a class="color-charcoal" href="https://www.classcentral.com/institution/salesforce">Salesforce</a>
                         </li>
                     </ul>
                 </div>
                 <div class="width-100 large-up-width-3-5 margin-bottom-small">
-                    <a href="/rankings"
+                    <a href="https://www.classcentral.com/rankings"
                         class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         {{ __('home/footer/footer.Rankings') }}
                     </a>
                     <ul class="list-no-style text-2">
                         <li class="margin-vert-xxsmall">
                             <a class="color-charcoal"
-                                href="/collection/top-free-online-courses">{{ __('home/footer/footer.Best Online Courses of All Time') }}</a>
+                                href="https://www.classcentral.com/collection/top-free-online-courses">{{ __('home/footer/footer.Best Online Courses of All Time') }}</a>
                         </li>
                         <li class="margin-vert-xxsmall">
                             <a class="color-charcoal"
@@ -179,7 +179,7 @@
             <div class="row width-100 xlarge-up-width-1-2 horz-align-left">
                 <div
                     class="width-100 large-up-width-1-3 xlarge-up-width-1-2 border-box padding-right-medium margin-bottom-medium">
-                    <a href="/report/"
+                    <a href="https://www.classcentral.com/report/"
                         class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         <i style="width: 80px; top: 1px;" class="relative inline-block symbol-report">The Report</i>
                         by Class Central
@@ -270,7 +270,7 @@
             </div>
             <div class="row width-100 xlarge-up-width-1-2">
                 <div class="width-100 medium-up-width-3-5 margin-bottom-medium">
-                    <a href="/about"
+                    <a href="https://www.classcentral.com/about"
                         class="inline-block margin-bottom-xxsmall text-2 color-charcoal weight-bold border-bottom border-gray hover-no-underline">
                         {{__("home/footer/footer.About Class Central")}}
                     </a>
@@ -297,21 +297,21 @@
 
         <div
             class="large-up-row vert-align-middle large-up-horz-align-left border-top border-gray-mid padding-top-medium">
-            <p>Class Central © 2011-2023 <a href="/about/privacy-policy"
+            <p>Class Central © 2011-2023 <a href="https://www.classcentral.com/about/privacy-policy"
                     class="color-charcoal block large-up-inline-block large-up-margin-left-xsmall">{{__("home/footer/footer.Privacy Policy")}}</a>
             </p>
             <ul class="list-no-style list-inline large-up-horz-align-right">
                 <li class="block large-up-inline-block large-up-padding-horz-small">
-                    <a class="color-charcoal" href="/about">{{__("home/footer/footer.About Us")}}</a>
+                    <a class="color-charcoal" href="https://www.classcentral.com/about">{{__("home/footer/footer.About Us")}}</a>
                 </li>
                 <li class="block large-up-inline-block large-up-padding-horz-small">
-                    <a class="color-charcoal" href="/about/careers">{{__("home/footer/footer.Join Us")}}</a>
+                    <a class="color-charcoal" href="https://www.classcentral.com/about/careers">{{__("home/footer/footer.Join Us")}}</a>
                 </li>
                 <li class="block large-up-inline-block large-up-padding-horz-small">
-                    <a class="color-charcoal" href="/help">{{__("home/footer/footer.Help Center")}}</a>
+                    <a class="color-charcoal" href="https://www.classcentral.com/help">{{__("home/footer/footer.Help Center")}}</a>
                 </li>
                 <li class="block large-up-inline-block large-up-padding-horz-small">
-                    <a class="color-charcoal" href="/contact">{{__("home/footer/footer.Contact Us")}}</a>
+                    <a class="color-charcoal" href="https://www.classcentral.com/contact">{{__("home/footer/footer.Contact Us")}}</a>
                 </li>
             </ul>
         </div>

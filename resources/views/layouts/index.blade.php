@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    @include('layouts.navbar2')
+    @include('layouts.navbar')
     @yield('content')
     @include('layouts.footer')
     {{-- @include('layouts.scripts') --}}
